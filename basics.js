@@ -37,7 +37,7 @@ if (person.age > 16) { canDrive = true;}
 
 var nullObj = null;
 var undefinedObj;
-var dataTypes = ["string",42,true,person,[1,2,3], nullObj, undefinedObj];
+var dataTypes = ['string',42,true,person,[1,2,3], nullObj, undefinedObj];
 
 /* Create a Dog object
  * it should have a `bark` function that makes your dog bark!
@@ -47,10 +47,10 @@ var dataTypes = ["string",42,true,person,[1,2,3], nullObj, undefinedObj];
 
 
 var dog = {
-  name:"Spot",
+  name:'Spot',
   bark: function bark(){
-    console.log("bark");
+    console.log('bark');
   }
 };
 
-bark();
+dog.bark();
