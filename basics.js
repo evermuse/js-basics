@@ -7,7 +7,7 @@ var myName = 'Bryan';
  * as well as an `age` (number);
  */
 
- var person = {name: 'Bryan', age: 35};
+var person = { name : 'Bryan', age : 35 };
 
 
 /* Create a function called `greet`,
@@ -15,15 +15,15 @@ var myName = 'Bryan';
  * and it should print "Hello, my name is {name}"
  */
 
- function greet(name) {
+function greet(name) {
 
   console.log('Hello, my name is ' + name);
 
- }
+}
 
- greet(person.name);
+greet(person.name);
 
- /* Create a variable called `canDrive`,
+/* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
  */
 
@@ -47,8 +47,8 @@ var dataTypes = ['string',42,true,person,[1,2,3], nullObj, undefinedObj];
 
 
 var dog = {
-  name:'Spot',
-  bark: function bark(){
+  name :'Spot',
+  bark : function bark() {
     console.log('bark');
   }
 };
